@@ -38,6 +38,14 @@ const Contact = () => {
         icon: "fa-brands fa-linkedin",
         url: "https://www.linkedin.com/in/saikumar452/",
       },
+      {
+        icon: "fa-brands fa-github",
+        url: "https://www.github.com/SaikumarBlaze",
+      },
+      {
+        icon: "fa-solid fa-code",
+        url: "https://leetcode.com/u/halbarsaikumar452/",
+      },
     ],
   };
 

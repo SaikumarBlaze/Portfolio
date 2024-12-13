@@ -8,7 +8,9 @@ import mongodb from "../assets/images/MongoDB.svg";
 import firebase from "../assets/images/firebase-2.png";
 import project1 from "../assets/images/project-1_1_1_3.jpg";
 import project2 from "../assets/images/project-2_2.jpg";
-import project3 from "../assets/images/project-3_3.jpg";
+// import project3 from "../assets/images/project-3_3.jpg";
+import project4 from "../assets/images/bg-task.jpg";
+import project5 from "../assets/images/bg-user.jpg";
 
 const Projects = () => {
   const personalProjects = [
@@ -29,6 +31,34 @@ const Projects = () => {
     },
     {
       location: "end",
+      bgUrl: project4,
+      skillsList: [
+        { imageUrl: bootstrap },
+        { imageUrl: react_image },
+        { imageUrl: redux },
+        { imageUrl: express },
+        { imageUrl: mongodb },
+      ],
+      title: "TaskFlow",
+      desc: "A task management platform with real-time updates and efficient state management using Redux.",
+      codeUrl: "https://github.com/SaikumarBlaze/taskflow",
+      icon: "fa-brands fa-github",
+    },
+    {
+      location: "start",
+      bgUrl: project5,
+      skillsList: [
+        { imageUrl: bootstrap },
+        { imageUrl: react_image },
+        { imageUrl: redux },
+      ],
+      title: "UserManage",
+      desc: "A user management platform with CRUD operations, authentication, and integration with Reqres API.",
+      codeUrl: "https://github.com/SaikumarBlaze/UserManage",
+      icon: "fa-brands fa-github",
+    },
+    {
+      location: "end",
       bgUrl: project2,
       skillsList: [
         { imageUrl: bootstrap },
@@ -42,21 +72,21 @@ const Projects = () => {
       codeUrl: "https://www.github.com/SaikumarBlaze",
       icon: "fa-brands fa-github",
     },
-    {
-      location: "start",
-      bgUrl: project3,
-      skillsList: [
-        { imageUrl: bootstrap },
-        { imageUrl: react_image },
-        { imageUrl: redux },
-        { imageUrl: express },
-        { imageUrl: mongodb },
-      ],
-      title: "R-STAPS",
-      desc: "An expense tracking app with real-time updates and secure backend services.",
-      codeUrl: "https://www.github.com/SaikumarBlaze",
-      icon: "fa-brands fa-github",
-    },
+    // {
+    //   location: "start",
+    //   bgUrl: project3,
+    //   skillsList: [
+    //     { imageUrl: bootstrap },
+    //     { imageUrl: react_image },
+    //     { imageUrl: redux },
+    //     { imageUrl: express },
+    //     { imageUrl: mongodb },
+    //   ],
+    //   title: "R-STAPS",
+    //   desc: "An expense tracking app with real-time updates and secure backend services.",
+    //   codeUrl: "https://www.github.com/SaikumarBlaze",
+    //   icon: "fa-brands fa-github",
+    // },
   ];
 
   return (

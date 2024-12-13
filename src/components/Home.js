@@ -5,13 +5,13 @@ import image3 from "../assets/images/image-5.avif";
 
 const Home = (props) => {
   const words = [
-    "Full Stack Developer.",
-    "UI-UX Designer.",
-    "Web Developer.",
-    "Backend Developer.",
-    "ReactJs Enthusiast.",
-    "Problem Solver.",
-    "Coder.",
+    "Full Stack Developer",
+    "Web Application Developer",
+    "Software Engineer",
+    "Cloud Solutions Enthusiast",
+    "React Technology Specialist",
+    "Problem-Solving Tech Graduate",
+    "Emerging Tech Professional",
   ];
 
   const socialIcons = [
@@ -40,7 +40,8 @@ const Home = (props) => {
           <div className="home-left">
             <h1 className="text-48 fw-700 my-3">{props.title}</h1>
             <p className="text-28 mb-5">
-              I am a passionate <TypingEffect words={words} />
+              Emerging tech professional developing innovative digital solutions
+              as a <TypingEffect words={words} />
             </p>
             <div className="social-links d-flex mb-3">
               {socialIcons.map((element, index) => {

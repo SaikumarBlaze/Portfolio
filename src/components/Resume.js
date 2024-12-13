@@ -4,7 +4,7 @@ import "../assets/styles/resume.css";
 const Resume = () => {
   const resumeDetails = {
     resumeUrl:
-      "https://drive.google.com/file/d/1oaZbVxw_Cwp37fGEcfv76tiNOxj7YvLu/view?usp=sharing",
+      "https://drive.google.com/file/d/1Qyz9TvRIXNLrtnf6CcsNkE-iKl5NXjBn/view?usp=sharing",
     leftSectionsList: [
       {
         title: "Education",
@@ -15,7 +15,7 @@ const Resume = () => {
             institute: "Indian Institute of Information Technology, Jabalpur",
             course: "Computer Science and Engineering",
             key: "CGPA",
-            score: "6.5 / 10",
+            score: "6.6 / 10",
           },
           {
             program: "Higher Secondary",

@@ -4,7 +4,7 @@ import "../assets/styles/about.css";
 const about = () => {
   const personalDetails = {
     summary:
-      "I am a Computer Science graduate from IIITDM Jabalpur with a focus on Full Stack Development. I have experience in building web applications, working with cloud infrastructures, and optimizing development processes using CI/CD pipelines. I’m skilled at solving complex problems and delivering reliable solutions. I am actively seeking opportunities in web development where I can apply my skills and continue learning.",
+      "A recent Computer Science graduate from the Indian Institute of Information Technology, Jabalpur, specializing in software development. Equipped with expertise in web technologies, cloud infrastructure, and full-stack solutions, demonstrating a strong ability to create efficient, scalable applications using React.js, Node.js, and modern development methodologies.",
     detailsList: [
       { link: false, key: "Birthday", value: "28 August 2002" },
       { link: false, key: "Age", value: "22" },
@@ -175,7 +175,7 @@ const about = () => {
           <div className="row">
             {personalDetails.interestList.map((element, index) => {
               return (
-                <div className="col-md-4">
+                <div className="col-md-4" key={index}>
                   <div className="card my-3 text-light interest-item">
                     <div className="card-body d-flex py-4 ps-4">
                       <div className="item-left me-3 d-flex justify-content-center align-items-center">
